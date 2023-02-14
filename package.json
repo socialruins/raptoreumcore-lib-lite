@@ -125,6 +125,7 @@
     "bloom-filter": "^0.2.0",
     "bls-signatures": "^0.2.5",
     "bn.js": "^5.2.1",
+    "browserify": "^17.0.0",
     "bs58": "=4.0.1",
     "elliptic": "^6.5.4",
     "inherits": "=2.0.1",
