@@ -108,7 +108,7 @@
     "bip69",
     "bip70",
     "multisig",
-    "dashcore"
+    "raptoreumcore"
   ],
   "repository": {
     "type": "git",

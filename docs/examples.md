@@ -1,4 +1,4 @@
-# Dashcore examples
+# RaptoreumCore examples
 
 ## Create and Save a Private Key
 
