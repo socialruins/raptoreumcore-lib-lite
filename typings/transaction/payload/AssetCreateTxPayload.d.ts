@@ -20,7 +20,7 @@
  * @property {number} externalConfirmations
  * @property {string} inputsHash
  * @property {number} [payloadSigSize] Size of the Signature
- * @property {string} [payloadSig] Signature of the hash of the FutureTx fields. Signed with keyIDOwner
+ * @property {string} [payloadSig] Signature of the hash of the Assettx fields. Signed with keyIDOwner
  */
 export type AssetCreateTxPayloadJSON = {
     version: number,
@@ -68,7 +68,7 @@ export type AssetCreateTxPayloadJSON = {
     * @property {number} externalConfirmations
     * @property {string} inputsHash
    * @property {number} [payloadSigSize] Size of the Signature
-   * @property {string} [payloadSig] Signature of the hash of the FutureTx fields. Signed with keyIDOwner
+   * @property {string} [payloadSig] Signature of the hash of the Assettx fields. Signed with keyIDOwner
    */
   export class AssetCreateTxPayload {
     /**

@@ -47,6 +47,7 @@ import * as _MultiSigScriptHashInput from './typings/transaction/input/MultiSigS
 
 import * as _AbstractPayload from './typings/transaction/payload/AbstractPayload';
 import * as _AssetCreateTxPayload from './typings/transaction/payload/AssetCreateTxPayload';
+import * as _AssetMintTxPayload from './typings/transaction/payload/AssetMintTxPayload';
 import * as _CoinbasePayload from './typings/transaction/payload/CoinbasePayload';
 import * as _CommitmentTxPayload from './typings/transaction/payload/CommitmentTxPayload';
 import * as _FutureTxPayload from './typings/transaction/payload/FutureTxPayload';
@@ -409,6 +410,7 @@ declare module '@dashevo/dashcore-lib' {
 
   export import AbstractPayload = _AbstractPayload.AbstractPayload;
   export import AssetCreateTxPayload = _AssetCreateTxPayload.AssetCreateTxPayload;
+  export import AssetMintTxPayload = _AssetMintTxPayload.AssetMintTxPayload;
   export import CoinbasePayload = _CoinbasePayload.CoinbasePayload;
   export import CommitmentTxPayload = _CommitmentTxPayload.CommitmentTxPayload;
   export import FutureTxPayload = _FutureTxPayload.FutureTxPayload;
