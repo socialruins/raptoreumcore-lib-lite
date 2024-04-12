@@ -16,8 +16,8 @@ bitcore.versionGuard = function (version) {
     console.warn(message);
   }
 };
-bitcore.versionGuard(global._dashcore);
-global._dashcore = bitcore.version;
+bitcore.versionGuard(global._raptoreumcore);
+global._raptoreumcore = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
