@@ -121,7 +121,7 @@
   "homepage": "https://github.com/socialruins/raptoreumcore-lib-lite",
   "dependencies": {
     "@types/node": "^12.12.47",
-    "bls-signatures": "^0.2.5",
+    "bls-signatures": "^2.0.3",
     "bn.js": "=4.12.0",
     "bs58": "=4.0.1",
     "elliptic": "^6.5.4",
