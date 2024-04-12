@@ -24,7 +24,7 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'raptoreumcore-lib.min.js',
+    filename: 'raptoreumcore-lib-lite.min.js',
     library: 'raptoreumcore',
     libraryTarget: 'umd',
   },

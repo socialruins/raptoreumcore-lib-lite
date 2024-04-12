@@ -37,7 +37,7 @@ This will generate a file named `raptoreumcore-lib.min.js` in the `dist/` folder
 ### Browser
 
 ```
-<script src='./dist/raptoreumcore-lib.min.js' type="text/javascript"></script>
+<script src='./dist/raptoreumcore-lib-lite.min.js' type="text/javascript"></script>
 <script>
   const PrivateKey = raptoreumcore.PrivateKey;
   const privateKey = new PrivateKey();

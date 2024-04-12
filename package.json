@@ -1,10 +1,10 @@
 {
-  "name": "@socialruins/raptoreumcore-lib",
+  "name": "@socialruins/raptoreumcore-lib-lite",
   "version": "0.19.44",
   "description": "A pure and powerful JavaScript Raptoreum library.",
   "author": "Dash Core Group, Inc. <dev@dash.org>",
   "main": "index.js",
-  "unpkg": "dist/raptoreumcore-lib.min.js",
+  "unpkg": "dist/raptoreumcore-lib-lite.min.js",
   "scripts": {
     "prepublishOnly": "npm run build",
     "lint": "eslint .",
@@ -112,13 +112,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/socialruins/raptoreumcore-lib.git"
+    "url": "https://github.com/socialruins/raptoreumcore-lib-lite.git"
   },
   "types": "index.d.ts",
   "bugs": {
-    "url": "https://github.com/socialruins/raptoreumcore-lib/issues"
+    "url": "https://github.com/socialruins/raptoreumcore-lib-lite/issues"
   },
-  "homepage": "https://github.com/socialruins/raptoreumcore-lib",
+  "homepage": "https://github.com/socialruins/raptoreumcore-lib-lite",
   "dependencies": {
     "@types/node": "^12.12.47",
     "bls-signatures": "^0.2.5",
