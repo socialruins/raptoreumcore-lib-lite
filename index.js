@@ -44,42 +44,42 @@ bitcore.util.buffer = require('./lib/util/buffer');
 bitcore.util.js = require('./lib/util/js');
 bitcore.util.preconditions = require('./lib/util/preconditions');
 bitcore.util.hashUtil = require('./lib/util/hashutil');
-bitcore.util.merkleTree = require('./lib/util/merkletree');
+//bitcore.util.merkleTree = require('./lib/util/merkletree');
 
 // errors thrown by the library
 bitcore.errors = require('./lib/errors');
 
 // main bitcoin library
 bitcore.Address = require('./lib/address');
-bitcore.Block = require('./lib/block');
+//bitcore.Block = require('./lib/block');
 
-bitcore.MerkleBlock = require('./lib/block/merkleblock');
-bitcore.QuorumEntry = require('./lib/deterministicmnlist/QuorumEntry');
-bitcore.SimplifiedMNList = require('./lib/deterministicmnlist/SimplifiedMNList');
-bitcore.SimplifiedMNListDiff = require('./lib/deterministicmnlist/SimplifiedMNListDiff');
-bitcore.SimplifiedMNListEntry = require('./lib/deterministicmnlist/SimplifiedMNListEntry');
-bitcore.BlockHeader = require('./lib/block/blockheader');
-bitcore.HDPrivateKey = require('./lib/hdprivatekey.js');
-bitcore.HDPublicKey = require('./lib/hdpublickey.js');
+//bitcore.MerkleBlock = require('./lib/block/merkleblock');
+//bitcore.QuorumEntry = require('./lib/deterministicmnlist/QuorumEntry');
+//bitcore.SimplifiedMNList = require('./lib/deterministicmnlist/SimplifiedMNList');
+//bitcore.SimplifiedMNListDiff = require('./lib/deterministicmnlist/SimplifiedMNListDiff');
+//bitcore.SimplifiedMNListEntry = require('./lib/deterministicmnlist/SimplifiedMNListEntry');
+//bitcore.BlockHeader = require('./lib/block/blockheader');
+//bitcore.HDPrivateKey = require('./lib/hdprivatekey.js');
+//bitcore.HDPublicKey = require('./lib/hdpublickey.js');
 bitcore.Networks = require('./lib/networks');
 bitcore.Opcode = require('./lib/opcode');
 bitcore.PrivateKey = require('./lib/privatekey');
 bitcore.PublicKey = require('./lib/publickey');
 bitcore.Script = require('./lib/script');
 bitcore.Transaction = require('./lib/transaction');
-bitcore.GovObject = require('./lib/govobject');
+//bitcore.GovObject = require('./lib/govobject');
 bitcore.URI = require('./lib/uri');
 bitcore.Unit = require('./lib/unit');
 bitcore.Message = require('./lib/message');
 bitcore.Mnemonic = require('./lib/mnemonic');
-bitcore.BloomFilter = require('./lib/bloomfilter');
+//bitcore.BloomFilter = require('./lib/bloomfilter');
 
-bitcore.ChainLock = require('./lib/chainlock/chainlock');
-bitcore.InstantLock = require('./lib/instantlock/instantlock');
+//bitcore.ChainLock = require('./lib/chainlock/chainlock');
+//bitcore.InstantLock = require('./lib/instantlock/instantlock');
 
-bitcore.ZmqMessages = {
-  ChainLockSigMessage: require('./lib/zmqMessages/ChainLockSigMessage'),
-};
+//bitcore.ZmqMessages = {
+//  ChainLockSigMessage: require('./lib/zmqMessages/ChainLockSigMessage'),
+//};
 
 // dependencies, subject to change
 bitcore.deps = {};
